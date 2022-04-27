@@ -1,0 +1,168 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ <display-name>RegistrationMvc</display-name>
+ <welcome-file-list>
+ <welcome-file>firstpage.jsp</welcome-file>
+ </welcome-file-list>
+ <servlet>
+ <description></description>
+ <display-name>RegisterServlet</display-name>
+ <servlet-name>RegisterServlet</servlet-name>
+ <servlet-class>com.mvc.controller.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>RegisterServlet</servlet-name>
+ <url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <description></description>
+ <display-name>fpServlet</display-name>
+ <servlet-name>fpServlet</servlet-name>
+ <servlet-class>com.mvc.controller.fpServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>fpServlet</servlet-name>
+ <url-pattern>/fpServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>customerServlet</display-name>
+ <servlet-name>customerServlet</servlet-name>
+ <servlet-class>com.mvc.controller.customerServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>customerServlet</servlet-name>
+ <url-pattern>/customerServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>custmenuServlet</display-name>
+ <servlet-name>custmenuServlet</servlet-name>
+ <servlet-class>com.mvc.controller.custmenuServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>custmenuServlet</servlet-name>
+ <url-pattern>/custmenuServlet</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ <description></description>
+ <display-name>anotherServlet</display-name>
+ <servlet-name>anotherServlet</servlet-name>
+ <servlet-class>com.mvc.controller.anotherServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>anotherServlet</servlet-name>
+ <url-pattern>/anotherServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>getpriceServlet</display-name>
+ <servlet-name>getpriceServlet</servlet-name>
+ <servlet-class>com.mvc.controller.getpriceServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>getpriceServlet</servlet-name>
+ <url-pattern>/getpriceServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>yetanotherServlet</display-name>
+ <servlet-name>yetanotherServlet</servlet-name>
+ <servlet-class>com.mvc.controller.yetanotherServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>yetanotherServlet</servlet-name>
+ <url-pattern>/yetanotherServlet</url-pattern>
+ </servlet-mapping>
+     
+     
+ <servlet>
+ <description></description>
+ <display-name>anotheroneServlet</display-name>
+ <servlet-name>anotheroneServlet</servlet-name>
+ <servlet-class>com.mvc.controller.anotheroneServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>anotheroneServlet</servlet-name>
+ <url-pattern>/anotheroneServlet</url-pattern>
+ </servlet-mapping>
+     
+     
+ <servlet>
+ <description></description>
+ <display-name>wowanotherServlet</display-name>
+ <servlet-name>wowanotherServlet</servlet-name>
+ <servlet-class>com.mvc.controller.wowanotherServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>wowanotherServlet</servlet-name>
+ <url-pattern>/wowanotherServlet</url-pattern>
+ </servlet-mapping>
+     
+     
+ <servlet>
+ <description></description>
+ <display-name>nrServlet</display-name>
+ <servlet-name>nrServlet</servlet-name>
+ <servlet-class>com.mvc.controller.nrServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>nrServlet</servlet-name>
+ <url-pattern>/nrServlet</url-pattern>
+ </servlet-mapping>
+     
+    
+ <servlet>
+ <description></description>
+ <display-name>deServlet</display-name>
+ <servlet-name>deServlet</servlet-name>
+ <servlet-class>com.mvc.controller.deServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>deServlet</servlet-name>
+ <url-pattern>/deServlet</url-pattern>
+ </servlet-mapping>
+ 
+    
+ <servlet>
+ <description></description>
+ <display-name>addvServlet</display-name>
+ <servlet-name>addvServlet</servlet-name>
+ <servlet-class>com.mvc.controller.addvServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>addvServlet</servlet-name>
+ <url-pattern>/addvServlet</url-pattern>
+ </servlet-mapping>
+     
+     
+ <servlet>
+ <description></description>
+ <display-name>dvServlet</display-name>
+ <servlet-name>dvServlet</servlet-name>
+ <servlet-class>com.mvc.controller.dvServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>dvServlet</servlet-name>
+ <url-pattern>/dvServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>ppServlet</display-name>
+ <servlet-name>ppServlet</servlet-name>
+ <servlet-class>com.mvc.controller.ppServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>ppServlet</servlet-name>
+ <url-pattern>/ppServlet</url-pattern>
+ </servlet-mapping>
+ 
+     
+</web-app>
